@@ -36,7 +36,7 @@ img {
 	border: none;
 }
 .mySlides {display:none;}
-
+.mySlidesS {display:none;}
 /*-------------------------------------------FONTS---------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
@@ -497,7 +497,7 @@ img {
 	display: block;
 	line-height: 48px;
 	margin: 0 auto;
-	padding: 0 0 1em;
+	padding: 0 1em 0.8em 0;
 	text-align: center;
 	width: 13em;
 	font-family: 'Gamja Flower', cursive;

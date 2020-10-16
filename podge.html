@@ -29,7 +29,7 @@
 					<li>
 						<a href="index.html">Home</a>
 					</li>
-					<li class="menu selected">
+					<li class="menu">
 						<a href="about.html">About</a>
 						<ul class="primary">
 							<li>
@@ -37,8 +37,8 @@
 							</li>
 						</ul>
 					</li>
-					<li class="menu">
-						<a href="podge.html">podge</a>
+					<li class="menu selected">
+						<a href="about.html">podge</a>
 						<ul class="primary">
 							<li>
 								<a href="product.html">Product</a>
@@ -62,31 +62,58 @@
 		<div id="body">
 			<div class="header">
 				<div>
-					<h1>About</h1>
+					<h1>podge</h1>
 				</div>
 			</div>
 			<div class="footer">
 				<div class="sidebar">
-					<h1>가장 자연스러운 혁신, <br>글로컬(global+local) <br>제주농촌을 고민합니다.</h1>
-					<p>제주 농촌을 중심으로 <br>친환경 농가와 <br> 글로벌 청년,<br> 도시 소비자의 니즈를<br> 연결하여 <br>제주의 글로벌한 <br>ECO_FARM문화를 만들어 나갑니다.</p>
+					<h1>농민의 골치, <br>파치(버려지는 농산물), <br>고령농민들의 계속된 골치를 <br> 해결하겠습니다.</h1>
+					<p>고령농민들이 <br>피땀흘려 농사를 지어 <br> 수확을 하지만 <br> 그럴때마다 골치는 항상<br> '파치'입니다. <br> - 산지폐기 <br> - 비상품 파치 <br>문제를 해결해 나가고 건강한 농촌을 만들어가겠습니다.</p>
 				</div>
 				<div class="article">
-					<h1>WWOOF JEJU ?!</h1>
-					<div class="pptImg w3-content w3-display-container" style="width: 60em;height: 40em;">
-						<img class="mySlides" src="images/ppt/ppt (1).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (2).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (3).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (4).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (5).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (6).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (7).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (8).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (9).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (10).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (11).JPG" alt="" style="width:100%">
-						<img class="mySlides" src="images/ppt/ppt (12).JPG" alt="" style="width:100%">
-						<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-						<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					<h1>파치란?</h1>
+					<div style="padding-left:15em;padding-bottom: 0;">
+						<div class="pptImg w3-content w3-display-container" style="width:35em;height: 36em;">
+							<img class="mySlidesS" src="images/podge/podge1.jpg" alt="" style="width:100%">
+							<img class="mySlidesS" src="images/podge/podge2.jpg" alt="" style="width:100%">
+							<button class="w3-button w3-black w3-display-left" onclick="plusDivcs(-1)">&#10094;</button>
+							<button class="w3-button w3-black w3-display-right" onclick="plusDivcs(1)">&#10095;</button>
+						</div>
+					</div>
+
+					<script>
+						var slideIndex = 1;
+						showDivcs(slideIndex);
+						
+						function plusDivcs(n) {
+						  showDivcs(slideIndex += n);
+						}
+						
+						function showDivcs(n) {
+						  var i;
+						  var x = document.getElementsByClassName("mySlidesS");
+						  if (n > x.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = x.length}
+						  for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";  
+						  }
+						  x[slideIndex-1].style.display = "block";  
+						}
+					</script>
+					<h1>대정 파치 이야기</h1>
+					<p style="width: 73em;">대정읍은 2020년 기준 전체인구 23,103명 중 70%이상은 농민들로 이루어져있습니다. 그리고 그 중 90%이상은 50대 이상의 농민들로 이루어져 있습니다. 고령농민들이 피땀흘려 농사를 지어 수확을 하지만 그럴때마다 골치는 항상 파치 였습니다.</p>
+					<div style="padding-left: 9em;padding-bottom: 0;">
+						<div class="pptImg w3-content w3-display-container" style="width: 47em;height: 46em;">
+							<img class="mySlides" src="images/podge/daejung.jpg" alt="" style="width:100%">
+							<img class="mySlides" src="images/podge/daejung2.jpg" alt="" style="width:100%">
+							<img class="mySlides" src="images/podge/daejung3.jpg" alt="" style="width:100%">
+							<img class="mySlides" src="images/podge/daejung4.jpg" alt="" style="width:100%">
+							<img class="mySlides" src="images/podge/daejung5.jpg" alt="" style="width:100%">
+							<img class="mySlides" src="images/podge/daejung6.jpg" alt="" style="width:100%">
+							<img class="mySlides" src="images/podge/daejung7.jpg" alt="" style="width:100%">
+							<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+							<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+						</div>	
 					</div>
 					<script>
 						var slideIndex = 1;
@@ -106,26 +133,24 @@
 						  }
 						  x[slideIndex-1].style.display = "block";  
 						}
-						</script>
-						<script>
-							var myIndex = 0;
-							carousel();
-							
-							function carousel() {
-							  var i;
-							  var x = document.getElementsByClassName("mySlides");
-							  for (i = 0; i < x.length; i++) {
-								x[i].style.display = "none";  
-							  }
-							  myIndex++;
-							  if (myIndex > x.length) {myIndex = 1}    
-							  x[myIndex-1].style.display = "block";  
-							  setTimeout(carousel, 3000); // Change image every 2 seconds
+					</script>
+					<script>/*자동넘김*/
+						var myIndex = 0;
+						carousel();
+						
+						function carousel() {
+							var i;
+							var x = document.getElementsByClassName("mySlides");
+							for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";  
 							}
-						</script>
-					<h1>We Have More Templates For You</h1>
-					<p>Looking for more templates? Just browse through all our <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a>. But if you can’t find any website templates you can use, try our <a href="http://www.freewebsitetemplates.com/freewebdesign/">Free Web Design</a> service and tell us all about it. We love a good challenge!</p>
-					<h1>Template Details</h1>
+							myIndex++;
+							if (myIndex > x.length) {myIndex = 1}    
+							x[myIndex-1].style.display = "block";  
+							setTimeout(carousel, 3000); // Change image every 2 seconds
+						}
+					</script>
+					<h1>파치문제를 해결해 가겠습니다.</h1>
 					<span>Design Version 2.</span>
 					<span>Code Version 1.</span>
 					<p>Website Template details, discussion and updates for this <a href="http://www.freewebsitetemplates.com/discuss/frozenyogurtshop/">Frozen Yogurt Shop Website Template</a>.</p>
